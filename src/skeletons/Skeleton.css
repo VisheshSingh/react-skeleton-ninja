@@ -32,7 +32,14 @@
 }
 
 .skeleton-article {
-  background: #eee;
+  /* background: #eee;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 4px; */
+}
+
+.skeleton-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
 }
